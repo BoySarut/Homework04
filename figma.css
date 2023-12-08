@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: monospace;
+}
+body {
+    
+}
+.navbar {
+   height: 5vh;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 5px;
+}
+.navbar a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.head {
+    font-weight: bold;
+    color: black;
+   display: flex;
+   justify-content: space-around;
+   padding: 3% 0;
+}
+.head img {
+    border: 1px rgb(120, 120, 120) solid;
+    padding: 10px;
+    border-radius: 50%;
+}
+.headtext {
+    width: 40%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.headtext button {
+    color: white;
+    border: none;
+    padding: 10px;
+    background-color: rgb(255, 98, 41);
+}
+.htext {
+    display: flex;
+    background-color: rgb(186, 229, 255);
+    justify-content: flex-start;
+    margin-left: 12%;
+}
+.recent {
+    height: 40vh;
+    background-color: rgb(186, 229, 255);
+}
+.recentcontain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75%;
+}
+.recentbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    width: 25%;
+    padding: 1%;
+    background-color: white;
+}
+.featwork {
+    display: flex;
+    flex-flow: column;
+}
+.htext2 {
+    align-self: flex-start;
+    margin-left: 12%;
+}
+.featwork {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+.workbox {
+display: flex;
+justify-content: center;
+border-bottom: 2px lightgray solid;
+padding: 2%;
+width: 80%;
+}
+.workbox img {
+    margin: 0 2%;
+}
+.worktext {
+display: flex;
+flex-flow: column wrap;
+justify-content: space-around;
+width: 50%;
+}
+.worktext span {
+    padding: 3px;
+    color: white;
+    background-color: black;
+    border-radius: 25%;
+    margin: 0 5%;
+}
+.footer {
+    height: 30vh;
+}
+.blog {
+    margin: 10% 25%;
+}
+.blog h1 {
+    font-size: 55px;
+}
+.blogbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 2px lightgray solid;
+    height: 25vh;
+}
+.blog h2 {
+    font-size: 30px;
+}
+.blogbox p {
+    font-size: 20px;
+}
+span {
+    color: rgb(177, 177, 177);
+}

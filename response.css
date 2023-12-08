@@ -1,0 +1,58 @@
+@media (max-width: 905px) {
+    
+    .head {
+       height: 40vh;
+    }
+    .head img {
+        border: 1px rgb(120, 120, 120) solid;
+        padding: 2px;
+        border-radius: 50%;
+        height: 75%;
+    }
+    .headtext {
+        width: 60%;
+        height: 30vh;
+    }
+    .recent {
+        height: 60vh;
+        background-color: rgb(186, 229, 255);
+    }
+    .recentcontain {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 70%;
+        gap: 10%;
+    }
+    .recentbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 50%;
+        width: 80%;
+        padding: 1%;
+        background-color: white;
+    }
+    .htext {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .htext2 {
+        margin-left: 0;
+        align-self: center;
+    }
+    .workbox img {
+        width: 300px;
+        height: 200px;
+    }
+}
+@media (max-width: 905px) {
+    .blog {
+        margin: 10% 10%;
+    }
+    .blogbox {
+        
+        height: 30vh;
+    }
+}
